@@ -1,0 +1,191 @@
+
+ * {
+zoom: 98%
+
+}
+body{
+background-color: #112d32;
+margin: 100px;
+font-family: 'Poppins', sans-serif;
+}
+
+.custom-info{
+	justify-content: space-between;
+}
+.custom-info .input-box{
+	display: flex;
+	align-items: center;
+}
+.custom-info .input-box1{
+	display: flex;
+	align-items: center;
+}
+.custom-info .input-box label{
+	min-width: 120px;
+	margin-bottom: 15px;
+	padding-right: 55px;
+
+
+}
+.custom-info .input-box1 label{
+	min-width: 120px;
+	margin-bottom: 15px;
+	
+
+
+}
+
+.custom-info .input-box input{
+	padding: 5px;
+	margin-bottom: 15px;
+	width: 300px;
+}
+.custom-info .input-box1 input{
+	padding: 5px;
+	margin-bottom: 15px;
+	width: 300px;
+}
+.custom-info .input-box input{
+	width: 300px;
+	padding: 5px;
+}
+.custom-info .input-box1 input{
+	width: 300px;
+	padding: 5px;
+}
+.leftbox{
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.centbox{
+	float: right;
+	margin-top: -272px;
+	margin-right: 320px;
+	position: relative;
+	}
+
+
+
+.btn button{
+	float: right;
+	margin-top: -80px;
+	margin-right: 70px;
+	
+}
+
+legend{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+fieldset{
+	padding: 20px 75px;
+	background-color: #f2f2f3;
+}
+
+.left{
+	width: 50%;
+	width: 37%; margin-left: 7px;
+}
+.left input{
+	text-align: right;
+}
+#left4 input{
+	text-align: center;
+}
+#left1{
+	margin-top: 50px;
+}
+
+.right{
+	width: 50%;
+	width: 37%; margin-left: 7px;
+	float: right;
+}
+.right input{
+	text-align: right;
+}
+
+#right1{
+	margin-top: -281px;
+	
+}
+#right2{
+	margin-top: -238px;
+	padding-top: 0px;
+	
+}
+
+#right2 input{
+	margin-top: 15px;
+}
+
+#right2 label{
+	margin-top: 15px;
+}
+#right3{
+	margin-top: -173px;
+
+	
+}
+#right3 input{
+	padding-top:  30px;
+	padding-bottom: 30px;
+	margin-top: -50px;
+	margin-bottom: -10px;
+	text-align:center;
+}
+
+.button {
+  background-color: #112d32; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+
+
+#but{
+	padding: 20px 108px;
+	margin:40px 5px 10px 5px;
+}
+
+.button1{
+	float:left;
+	margin-left: 5px;
+}
+
+.button2{
+	float: left;
+	margin-left: 5px;
+	margin-top:0px;
+}
+.button3{
+	float: left;
+	margin-left: 5px;
+}
+.button4{
+	float: left;
+	margin-left: 5px;
+}
+.button5{
+	float: left;
+	margin-left: 200px;
+}
+.button6{
+	float: left;
+	margin-left: 5px;
+}
+.button7{
+	float: left;
+	margin-left: 5px;
+}

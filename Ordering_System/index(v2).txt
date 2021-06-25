@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ordering System</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="js/script1.js"></script>
+	<!-- Popper JS -->
+	<script src="js/script2.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="js/script3.js"></script>
+	<!-- Main Script -->
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="mbody">
+<h1><center>PLANTHUB ORDERING SYSTEM</center></h1>
+
+<style type="text/css">
+	
+
+	}
+	.item {
+    width: 150px;
+    float: left;
+    margin-right: 35px;
+    padding: -5px;
+}
+</style>
+
+<!--------------Need Info------------------->
+<div class="custom-info">
+
+<!-----------------------------------1st box--------------------------------------->
+	
+		<fieldset class="left" id="left1">
+
+
+			<legend>Choose your Bundle</legend>
+
+			<div class="radio">
+			<input type="radio" id="fba" name="foodbundle" value="fba">
+			<label for="fba">PlantHub Bundle A</label><br>
+			<input type="radio" id="fbb" name="foodbundle" value="fbb">
+			<label for="fbb">PlantHub Bundle B</label><br>
+			<input type="radio" id="fbc" name="foodbundle" value="fbc">
+			<label for="fbb">PlantHub Bundle C</label><br>
+			</div>
+		</fieldset>	
+
+<!--------------------------------End of 1st box----------------------------------->
+
+
+
+<!-----------------------------------2nd box--------------------------------------->
+	
+		<fieldset class="right" id="right1">
+			
+			
+			<legend>PlantHub Bundles A</legend>
+
+			<div class="checkbox1">
+			<input type="checkbox" id="fba1" name="fba1" value="10chicken" disabled>
+			<label for="fba1"> 4pcs. Common Succulent</label><br>
+
+			<input type="checkbox" id="fba2" name="fba2" value="fries" disabled>
+			<label for="fba2"> 2pcs. Rare Cactus </label><br>
+
+			<input type="checkbox" id="fba3" name="fba3" value="coke" disabled>
+			<label for="fba3"> 5kg CNS Potting Mix</label><br>
+
+			<input type="checkbox" id="fba4" name="fba4" value="sdish" disabled>
+			<label for="fba4"> 1pc. Mikono Watering Bottle</label><br>
+
+			<input type="checkbox" id="fba5" name="fba5" value="spdel" disabled>
+			<label for="fba5"> 5pcs. Terracotta Pots</label><br>
+			</div>
+
+		</fieldset>
+
+
+
+
+
+		<fieldset class="right" id="right2">
+
+			
+			<legend>PlantHub Bundles B</legend>
+
+			<div class="checkbox1">
+			<input type="checkbox" id="fbb1" name="fbb1" value="halo" disabled>
+			<label for="fbb1"> 4pcs. Common Cactuses</label><br>
+
+			<input type="checkbox" id="fbb2" name="fbb2" value="6chicken" disabled>
+			<label for="fbb2"> 2pcs. Rare Succulents</label><br>
+
+			<input type="checkbox" id="fbb3" name="fbb3" value="carbon" disabled>
+			<label for="fbb3"> 5kg CNS Potting Mix</label><br>
+
+			<input type="checkbox" id="fbb4" name="fbb4" value="fpfries" disabled>
+			<label for="fbb4"> 1pc. Mikono Wattering Bottle</label><br>
+
+			<input type="checkbox" id="fbb5" name="fbb5" value="mhpizza" disabled>
+			<label for="fbb5"> 5pcs. Terracotta Pots</label><br>
+			</div>
+
+		</fieldset>
+
+
+
+		<fieldset class="right" id="right3">
+
+			
+			<legend>PlantHub Bundles C</legend>
+
+			<div class="checkbox1">
+			<input type="checkbox" id="fbc1" name="fbb1" value="halo1" disabled>
+			<label for="fbc1"> 2pcs. Rare Cactuses</label><br>
+
+			<input type="checkbox" id="fbc2" name="fbb2" value="6chicken1" disabled>
+			<label for="fbc2"> 2pcs. Rare Succulents</label><br>
+
+			<input type="checkbox" id="fbc3" name="fbb3" value="carbon1" disabled>
+			<label for="fbc3"> 5kg CNS Potting Mix</label><br>
+
+			<input type="checkbox" id="fbc4" name="fbb4" value="fpfries1" disabled>
+			<label for="fbc4"> 1pc. Mikono Wattering Bottle</label><br>
+
+			<input type="checkbox" id="fbc5" name="fbb5" value="mhpizza1" disabled>
+			<label for="fbc5"> 5pcs. Terracotta Pots</label><br>
+			</div>
+
+		</fieldset>
+
+	
+<!--------------------------------End of 2nd box----------------------------------->
+
+
+
+<!-----------------------------------4th box--------------------------------------->
+
+		<fieldset class="left" id="left2">
+			<legend>Oder Details</legend>
+
+			<div class="input-box">
+				<label for="price">Price:</label>
+				<input type="text" name="price" id="price" value="" disabled>
+			</div>
+
+			<div class="input-box">
+				<label for="quantity">Quantity:</label>
+				<input type="text" name="quantity" id="quantity">
+			</div>
+
+			<div class="input-box">
+				<label for="disamo">Discount<br>Amount:</label>
+				<input type="text" name="disamo" id="disamo" disabled>
+			</div>
+
+			<div class="input-box">
+				<label for="disedamo">Discounted<br>Amount:</label>
+				<input type="text" name="disedamo" id="disedamo" disabled>
+			</div>
+
+			<div class="input-box">
+				<label for="tbills">Total Bills:</label>
+				<input type="text" name="tbills" id="tbills" disabled>
+			</div>
+
+			<div class="input-box">
+				<label for="tquan">Total<br>Quantity:</label>
+				<input type="text" name="tquan" id="tquan" disabled>
+			</div>
+
+			<div class="input-box">
+				<label for="cgive">Cash Given:</label>
+				<input type="text" name="cgive" id="cgive">
+			</div>
+
+			<div class="input-box">
+				<label for="Change">Change:</label>
+				<input type="text" name="change" id="change" disabled>
+			</div>
+
+		</fieldset>	
+
+	
+<!--------------------------------End of 4th box----------------------------------->
+
+
+
+<!-----------------------------------6th box--------------------------------------->
+		
+			<fieldset class="left" id="left3">
+				<table>
+					<tr>
+						<div class="inp">
+						<td rowspan="2"><textarea name="osum" id="osum" style="resize: none; width: 364px; height: 185px; margin-top: 10px; " disabled></textarea></td>
+						</div>
+
+						<td>
+							<div class="item"  id="img1" style="display: none;">
+								<center><img src="image/Lithops living stones.jpg"></center>
+							</div>
+							<div class="item" id="img2" style="display: none;">
+								<center><img src="image/Titanopsis calcarea.jpg"></center>
+							</div>
+							<div class="item" id="img3" style="display: none;">
+								<center><img src="image/Senecio vitalis.jpg"></center>
+							</div>
+							<div class="item" id="img4" style="display: none;">
+								<center><img src="image/Sedum morganianum Donkey's Tail.jpg"></center>
+							</div>
+							<div class="item" id="img5" style="display: none;">
+								<center><img src="image/Pachycereus marginatus Mexican Fence Post Specimen.jpg"></center>
+							</div>
+							<div class="item" id="img6" style="display: none;">
+								<center><img src="image/Adromischus alstonii.jpg" ></center>
+							</div>
+							<div class="item" id="img7" style="display: none;">
+								<center><img src="image/Haworthia planifolia.jpg"></center>
+							</div>
+							<div class="item" id="img8" style="display: none;">
+								<center><img src="image/Gymnocalycium stenogonum.jpg"></center>
+							</div>
+							<div class="item" id="img9" style="display: none;">
+								<center><img src="image/Gymnocalycium stellatum asterium.jpg"></center>
+							</div>
+							<div class="item" id="img10" style="display: none;">
+								<center><img src="image/Ferocactus emoryi.jpg"></center>
+							</div>
+							<div class="item" id="img11" style="display: none;">
+								<center><img src="image/Euphorbia heptagona.jpg"></center>
+							</div>
+							<div class="item" id="img12" style="display: none;">
+								<center><img src="image/Euphorbia gamkaensis.jpg"></center>
+							</div>
+							<div class="item" id="img13" style="display: none;">
+								<center><img src="image/Euphorbia grandicornes.jpg"></center>
+							</div>
+							<div class="item" id="img14" style="display: none;">
+								<center><img src="image/Euphorbia ferox.jpg"></center>
+							</div>
+							<div class="item" id="img15" style="display: none;">
+								<center><img src="image/Dudleya pachyphytum.jpg"></center>
+							</div>
+							<div class="item" id="img16" style="display: none;">
+								<center><img src="image/Echinofossulocactus ochoterenae.jpg"></center>
+							</div>
+							<div class="item" id="img17" style="display: none;">
+								<center><img src="image/Echeveria cante Large.jpg"></center>
+							</div>
+							<div class="item" id="img18" style="display: none;">
+								<center><img src="image/Kalanchoe houghtonii.jpg"></center>
+							</div>
+							<div class="item" id="img19" style="display: none;">
+								<center><img src="image/Aeonium haworthii kiwi.jpg"></center>
+							</div>
+							<div class="item" id="img20" style="display: none;">
+								<center><img src="image/Aloe brevifolia crocodile plant.jpg"></center>
+							</div>
+							<div class="item" id="img21" style="display: none;">
+								<center><img src="image/crassula mesembryanthemoides hispida.jpg"></center>
+							</div>
+							<div class="item" id="img22" style="display: none;">
+								<center><img src="image/Dinteranthus microsperma.jpg"></center>
+							</div>
+							<div class="item" id="img23" style="display: none;">
+								<center><img src="image/Dinteranthus wilmottianus.jpg"></center>
+							</div>
+							<div class="item" id="img24" style="display: none;">
+								<center><img src="image/Faucaria tuberculosa soto.jpg"></center>
+							</div>
+
+
+						</td>
+					</tr>
+					<tr>
+						<td style="position: absolute;bottom:25px; right: 63px;"><label><center>Order Image:</center></label></td>
+					</tr>
+				</table>
+
+				
+			</fieldset>
+	
+<!--------------------------------End of 6th box----------------------------------->
+
+
+<!-----------------------------------3rd box--------------------------------------->
+	
+		<fieldset class="rig" id="right4">
+		<legend>Plant Choices</legend>
+
+<center>	
+<div class="image">		
+<table>
+		
+
+			<tr>
+					<td><img src="image/Lithops living stones.jpg"></td>
+					<td><img src="image/Titanopsis calcarea.jpg"></td>
+					<td><img src="image/Senecio vitalis.jpg"></td>
+					<td><img src="image/Sedum morganianum Donkey's Tail.jpg"></td>
+					<td><img src="image/Pachycereus marginatus Mexican Fence Post Specimen.jpg"></td>
+					<td><img src="image/Adromischus alstonii.jpg"></td>
+			</tr>
+			<tr>
+					<td><input type="checkbox" id="checkbox1" name="checkbox1" value="" onchange="checkBox('checkbox1', 'img1')">
+					<label for="">Lithops</label></td>
+					<td><input type="checkbox" id="checkbox2" name="checkbox2" value="" onchange="checkBox('checkbox2', 'img2')">
+					<label for="">T. Calcarea</label></td>
+					<td><input type="checkbox" id="checkbox3" name="checkbox3" value="" onchange="checkBox('checkbox3', 'img3')">
+					<label for="">S. Vitalis</label></td>
+					<td><input type="checkbox" id="checkbox4" name="checkbox4" value="" onchange="checkBox('checkbox4', 'img4')">
+					<label for="">Sedum MDK</label></td>
+					<td><input type="checkbox" id="checkbox5" name="checkbox5" value="" onchange="checkBox('checkbox5', 'img5')">
+					<label for="">P. Marginatus</label></td>
+					<td><input type="checkbox" id="checkbox6" name="checkbox6" value="" onchange="checkBox('checkbox6', 'img6')">
+					<label for="">A. Alstonii</label></td>
+			</tr>
+
+			<tr>
+					<td><img src="image/Haworthia planifolia.jpg"></td>
+					<td><img src="image/Gymnocalycium stenogonum.jpg"></td>
+					<td><img src="image/Gymnocalycium stellatum asterium.jpg"></td>
+					<td><img src="image/Ferocactus emoryi.jpg"></td>
+					<td><img src="image/Euphorbia heptagona.jpg"></td>
+					<td><img src="image/Euphorbia gamkaensis.jpg"></td>
+
+			</tr>
+
+			<tr>
+					<td><input type="checkbox" id="checkbox7" name="checkbox7" value="" onchange="checkBox('checkbox7', 'img7')">
+					<label for="">H. Planifolia</label></td>
+					<td><input type="checkbox" id="checkbox8" name="checkbox8" value="" onchange="checkBox('checkbox8', 'img8')">
+					<label for="">G. Stenogonum</label></td>
+					<td><input type="checkbox" id="checkbox9" name="checkbox9" value="" onchange="checkBox('checkbox9', 'img9')">
+					<label for="">GS. Asterium</label></td>
+					<td><input type="checkbox" id="checkbox10" name="checkbox10" value="" onchange="checkBox('checkbox10', 'img10')">
+					<label for="">F. Emoryi</label></td>
+					<td><input type="checkbox" id="checkbox11" name="checkbox11" value="" onchange="checkBox('checkbox11', 'img11')">
+					<label for="">E. Heptagona</label></td>
+					<td><input type="checkbox" id="checkbox12" name="checkbox12" value="" onchange="checkBox('checkbox12', 'img12')">
+					<label for="">E. gamkaensis</label></td>
+			</tr>
+
+			<tr>
+					<td><img src="image/Euphorbia grandicornes.jpg"></td>
+					<td><img src="image/Euphorbia ferox.jpg"></td>
+					<td><img src="image/Dudleya pachyphytum.jpg"></td>
+					<td><img src="image/Echinofossulocactus ochoterenae.jpg"></td>
+					<td><img src="image/Echeveria cante Large.jpg"></td>
+					<td><img src="image/Kalanchoe houghtonii.jpg"></td>
+			</tr>
+
+			<tr>
+					<td><input type="checkbox" id="checkbox13" name="checkbox13" value="" onchange="checkBox('checkbox13', 'img13')">
+					<label for="">E. Grandicornes</label></td>
+					<td><input type="checkbox" id="checkbox14" name="checkbox14" value="" onchange="checkBox('checkbox14', 'img14')">
+					<label for="">E. Ferox</label></td>
+					<td><input type="checkbox" id="checkbox15" name="checkbox15" value="" onchange="checkBox('checkbox15', 'img15')">
+					<label for="">D. Pachyphytum</label></td>
+					<td><input type="checkbox" id="checkbox16" name="checkbox16" value="" onchange="checkBox('checkbox16', 'img16')">
+					<label for="">E. Ochoterenae</label></td>
+					<td><input type="checkbox" id="checkbox17" name="checkbox17" value="" onchange="checkBox('checkbox17', 'img17')">
+					<label for="">E. Cante(L)</label></td>
+					<td><input type="checkbox" id="checkbox18" name="checkbox18" value="" onchange="checkBox('checkbox18', 'img18')">
+					<label for="">K. Houghtonii</label></td>
+			</tr>
+
+			<tr>
+					<td><img src="image/Aeonium haworthii kiwi.jpg"></td>
+					<td><img src="image/Aloe brevifolia crocodile plant.jpg"></td>
+					<td><img src="image/crassula mesembryanthemoides hispida.jpg"></td>
+					<td><img src="image/Dinteranthus microsperma.jpg"></td>
+					<td><img src="image/Dinteranthus wilmottianus.jpg"></td>
+					<td><img src="image/Faucaria tuberculosa soto.jpg"></td>
+			</tr>
+
+			<tr>
+					<td><input type="checkbox" id="checkbox19" name="checkbox19" value="" onchange="checkBox('checkbox19', 'img19')">
+					<label for="">AH. Kiwi</label></td>
+					<td><input type="checkbox" id="checkbox20" name="checkbox20" value="" onchange="checkBox('checkbox20', 'img20')">
+					<label for="">AB. Crocodile</label></td>
+					<td><input type="checkbox" id="checkbox21" name="checkbox21" value="" onchange="checkBox('checkbox21', 'img21')">
+					<label for="">CM. Hispida</label></td>
+					<td><input type="checkbox" id="checkbox22" name="checkbox22" value="" onchange="checkBox('checkbox22', 'img22')">
+					<label for="">D. Microsperma</label></td>
+					<td><input type="checkbox" id="checkbox23" name="checkbox23" value="" onchange="checkBox('checkbox23', 'img23')">
+					<label for="">D. Wilmottianus</label></td>
+					<td><input type="checkbox" id="checkbox24" name="checkbox24" value="" onchange="checkBox('checkbox24', 'img24')">
+					<label for="">F. Tuberculosa</label></td>
+			</tr>
+
+			<tr>
+				<td><center><button class="button button1" id="cbill" name="cbill">CALCULATE<br>BILLS</button></center></td>
+				<td><center><button class="button button1" id="change_btn" name="change_btn">CHANGE</button></center></td>
+				<td><center><button class="button button4" id="new" name="new">NEW</button></center></td>
+				<td><center><button class="button button3" id="remove_order" name="remove_order">REMOVE ORDER</button></center></td>
+				<td><center><button class="button button2">PRINT<br>TRANSACTIONS</button></center></td>
+				<td><center><button class="button button5">EXIT</button></center></td>
+
+			
+				
+			</tr>
+
+</table>
+	</div>
+</center>		
+		</fieldset>
+<!--------------------------------End of 3rd box----------------------------------->
+
+<script>
+	function checkBox(divId, imageId) {
+		// Get the checkbox
+		var menuSelect = document.getElementById(divId);
+		// Get the output text
+		var menuImage = document.getElementById(imageId);
+
+		// If the checkbox is checked, display the output text
+		if(menuSelect.checked == true){
+			menuImage.style.display = "block";
+		}else{
+			menuImage.style.display = "none";
+		}
+	}
+</script>
+
+
+
+
+
+	
+
+
+
+</div>
+
+</body>
+</html>
